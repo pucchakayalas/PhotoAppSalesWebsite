@@ -42,3 +42,29 @@ section#middle .container .img-responsive{
 	border: 1px solid #ccc;
 	padding: 3px;
 }
+
+section#feature{
+	background-color: #1CAA98;
+	color:#fff;
+	height:300px;
+	display: block;
+
+}
+
+section#feature li{
+	list-style: none;
+	font-size: 25px;
+	padding: 10px 0 10px 0
+	
+}
+
+footer{
+	background-color: #333 !important; 
+	color: white;
+}
+
+footer ul .contact-bar{
+	display: block;
+	text-decoration: none;
+	float: left;
+}
