@@ -6,6 +6,8 @@ body {
 	color: #1caa98 !important;  
 }
 
+/*jumbotron css*/
+
 .jumbotron .app-btn {
    width: 40%;
    margin-right:30px;
@@ -15,7 +17,7 @@ body {
 	background: url(../img/site_showcase_bg.jpg);
 	color: #fff;
 	height:594px;
-	overflow: none;
+	
 }
 
 .jumbotron h1{
@@ -26,6 +28,10 @@ body {
 	margin-bottom: 50px;
 }
 
+
 .jumbotron .showcase-img{
-	width: 75%;
+	padding-left: 100px !important;
+	height: auto;
+	
+
 }
