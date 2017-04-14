@@ -46,9 +46,10 @@ section#middle .container .img-responsive{
 section#feature{
 	background-color: #1CAA98;
 	color:#fff;
-	height:300px;
-	display: block;
-
+	height:auto;
+	justify-content: center;
+padding-bottom: 30px;
+padding-top: 30px;
 }
 
 section#feature li{
@@ -58,13 +59,32 @@ section#feature li{
 	
 }
 
+section#feature h1{
+	margin-left: 30px;
+}
+
+section#feature img{
+	padding-left: 100px;
+}
 footer{
 	background-color: #333 !important; 
 	color: white;
+
 }
 
-footer ul .contact-bar{
+footer li{
 	display: block;
-	text-decoration: none;
+	list-style: none;
 	float: left;
+	padding: 20px;
+	font-size: 15px;
+}
+
+footer p{
+padding-top:20px;
+float: right;
+font-size: 15px;
+}
+footer a{
+	color: #fff;
 }
