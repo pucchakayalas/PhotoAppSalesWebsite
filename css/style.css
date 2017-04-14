@@ -32,6 +32,13 @@ body {
 .jumbotron .showcase-img{
 	padding-left: 100px !important;
 	height: auto;
-	
+}
 
+section#middle .container .col-md-4{
+	padding:40px;
+	}
+
+section#middle .container .img-responsive{
+	border: 1px solid #ccc;
+	padding: 3px;
 }
