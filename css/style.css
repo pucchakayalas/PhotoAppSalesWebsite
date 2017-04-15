@@ -18,6 +18,7 @@ body {
     background: url(../img/site_showcase_bg.jpg);
     color: #fff;
     height: 594px;
+    background-size:100% 100%; 
 }
 
 .jumbotron h1 {
@@ -32,6 +33,8 @@ body {
     padding-left: 100px !important;
     height: auto;
 }
+
+
 /*section #middle*/
 
 section#middle .container .col-md-4 {
@@ -42,6 +45,7 @@ section#middle .container .img-responsive {
     border: 1px solid #ccc;
     padding: 3px;
 }
+
 
 /*section #feature*/
 
@@ -68,7 +72,9 @@ section#feature img {
     padding-left: 150px;
 }
 
+
 /*footer*/
+
 footer {
     background-color: #333 !important;
     color: white;
@@ -92,21 +98,22 @@ footer a {
     color: #fff;
 }
 
+
 /*about.html*/
 
-section#title-bar{
+section#title-bar {
     background-color: #1caa98 !important;
-	height: 80px;
-	color: white;
+    height: 80px;
+    color: white;
 }
 
-section#title-bar h1{
-	margin-bottom: 20px !important;
+section#title-bar h1 {
+    margin-bottom: 20px !important;
 }
 
-section#middle2{
-	margin-top: 40px;
-	margin-bottom:40px;
+section#middle2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 section#middle2 .container .img-responsive {
@@ -114,15 +121,33 @@ section#middle2 .container .img-responsive {
     padding: 3px;
 }
 
-section#middle2 p{
-	padding-bottom: 20px;
+section#middle2 p {
+    padding-bottom: 20px;
 }
 
-footer#aboutfooter .row{
-	padding: 10px 0 10px 0;
+footer#aboutfooter .row {
+    padding: 10px 0 10px 0;
+}
+
+
+/*contact form*/
+
+section#middle2 .col-md-8 {
+    padding-bottom: 25px;
+}
+
+
+/*media queries*/
+
+/*tablets*/
+@media (max-width: 1200px) and (min-width:700px) {
+	.jumbotron .showcase-img{
+		display: none;
+	}
+	.jumbotron {
+		background: url(../img/pexels.jpg);
+		background-size:100% 100%;
+	}
+
 	
-}
-
-section#middle2 .col-md-8{
-	padding-bottom: 25px;
 }
