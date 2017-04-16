@@ -141,18 +141,37 @@ section#middle2 .col-md-8 {
 
 /*media queries*/
 
-/*tablets*/
-@media (max-width: 1200px) and (min-width:700px) {
-	.jumbotron .showcase-img{
-		display: none;
-	}
-	.jumbotron {
-		background: url(../img/pexels.jpg);
+@media (max-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+
+.jumbotron{
+		height: 400px !important;
 		background-size:100% 100%;
 	}
 
-	footer p{
-		margin-left: 0;
-		justify-content: center;
-	}
+.jumbotron h1{
+	margin-top: 10px;
+}
+.jumbotron .col-md-6 .showcase-img{
+	display: none;
+}
+.jumbotron .app-btn {
+    width: 30%;
+    margin-right: 30px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(max-width: 500px) {
+
 }
