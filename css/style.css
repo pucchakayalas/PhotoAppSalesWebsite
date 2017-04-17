@@ -146,22 +146,46 @@ section#middle2 .col-md-8 {
 }
 
 @media(max-width: 991px){
+/*jumbotron*/
+.showcase-img{
+		display: none;
+	}
 
 .jumbotron{
 		height: 400px !important;
 		background-size:100% 100%;
+
 	}
 
 .jumbotron h1{
 	margin-top: 10px;
+	padding-left: 25%;
+}
+
+.jumbotron p{
+	padding-left: 10%;
 }
 .jumbotron .col-md-6 .showcase-img{
 	display: none;
 }
 .jumbotron .app-btn {
     width: 30%;
-    margin-right: 30px;
+    margin-left: 90px;    
 }
+
+/*section#middle*/
+section#middle .col-md-4{
+	margin-left: 6%;
+}
+section#middle2 .col-md-4{
+	margin-left: 10%;
+}
+/*section#feature*/
+section#feature .col-md-4 .img-responsive{
+	padding-left: 5%;
+}
+
+
 }
 
 @media(min-width: 768px) and (max-width: 990px){
